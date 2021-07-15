@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Welcom from "./components/Welcom";
+import Game from "./components/Game";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Counter value={5}></Counter>
+      <Message></Message>
+      <Welcom name="vikram">
+        <p>He is good boy</p>
+      </Welcom>
+      <Welcom name="Ashish">
+        <p>He is intelligent boy</p>
+      </Welcom>
+      <Game name="Rohan">
+        <p style={{ display: "inline" }}>Rohan is a good player</p>
+      </Game>
+      <Welcom name="Ramesh">
+        <Game>
+          <p>i am in GAme in welcome</p>
+        </Game>
+        <p style={{ fontWeight: "bold" }}>i am in welcome below the game</p>
+      </Welcom>
     </div>
   );
 }
