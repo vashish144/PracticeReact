@@ -1,6 +1,7 @@
 import React from "react";
 
 function Welcom({ name, roll, children }) {
+  //   const { name, roll, children } = this.props;
   return (
     <div>
       <h1>

@@ -4,11 +4,17 @@ import Welcom from "./components/Welcom";
 import Game from "./components/Game";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/clickHandler/FunctionClick";
+import ClassClick from "./components/clickHandler/ClassClick";
+import EventBind from "./components/eventBind/EventBind";
 
 function App() {
   return (
     <div className="App">
-      <Counter value={5}></Counter>
+      <EventBind />
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+      {/* <Counter value={5}></Counter> */}
       {/*<Message></Message>
       <Welcom name="vikram" roll={3}>
         <p>He is good boy</p>
@@ -16,9 +22,9 @@ function App() {
       <Welcom name="Ashish">
         <p>He is intelligent boy</p>
       </Welcom> */}
-      <Game name="Rohan" Play="kabadi">
+      {/* <Game name="Rohan" Play="kabadi">
         <p style={{ display: "inline" }}>Rohan is a good player</p>
-      </Game>
+      </Game> */}
       {/* <Welcom name="Ramesh">
         <Game>
           <p>i am in GAme in welcome</p>
