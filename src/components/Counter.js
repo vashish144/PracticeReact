@@ -48,10 +48,14 @@ export class Counter extends Component {
     console.log(this.state.count);
   }
   render() {
+    //distructuring of props
+    const { value } = this.props;
+    // distructuring of state
+    const { count } = this.state;
     return (
       <div>
         <h1>Counter</h1>
-        <p>Count:- {this.state.count}</p>
+        <p>Count:- {count}</p>
         <button onClick={() => this.IncrementCount()}>Increment</button>
         <button onClick={() => this.DecrementCount()}>Decrement</button>
         <button onClick={() => this.IncrementCountByFive()}>Increment-5</button>

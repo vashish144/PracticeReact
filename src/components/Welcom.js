@@ -1,12 +1,12 @@
 import React from "react";
 
-function Welcom(props) {
-  console.log(props);
-
+function Welcom({ name, roll, children }) {
   return (
     <div>
-      <h1>Welcome {props.name}</h1>
-      <p>{props.children}</p>
+      <h1>
+        Welcome {name} and roll is {roll}
+      </h1>
+      <p>{children}</p>
     </div>
   );
 }
