@@ -8,11 +8,13 @@ import FunctionClick from "./components/clickHandler/FunctionClick";
 import ClassClick from "./components/clickHandler/ClassClick";
 import EventBind from "./components/eventBind/EventBind";
 import ParentComponent from "./components/passignDatafromParentToChild/ParentComponent";
+import ConditionRendringClass from "./components/ConditionRendring/ConditionRendringClass";
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <ConditionRendringClass />
+      {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
