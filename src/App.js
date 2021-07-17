@@ -9,11 +9,21 @@ import ClassClick from "./components/clickHandler/ClassClick";
 import EventBind from "./components/eventBind/EventBind";
 import ParentComponent from "./components/passignDatafromParentToChild/ParentComponent";
 import ConditionRendringClass from "./components/ConditionRendring/ConditionRendringClass";
+import NameList from "./components/ListRendring/NameList";
+import Person from "./components/ListRendring/Person";
+import Stylesheet from "./components/cssStyling/Stylesheet";
+import Inlinecss from "./components/cssStyling/Inlinecss";
+import Form from "./components/formHandling/Form";
 
 function App() {
   return (
     <div className="App">
-      <ConditionRendringClass />
+      <Form />
+      {/* <Inlinecss />
+      <Stylesheet primary={false} /> */}
+      {/* <Person /> */}
+      {/* <NameList/> */}
+      {/* <ConditionRendringClass /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
