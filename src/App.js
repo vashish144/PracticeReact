@@ -14,11 +14,13 @@ import Person from "./components/ListRendring/Person";
 import Stylesheet from "./components/cssStyling/Stylesheet";
 import Inlinecss from "./components/cssStyling/Inlinecss";
 import Form from "./components/formHandling/Form";
+import LifeCycleA from "./components/ReactLifeCycle/LifeCycleA";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      {/* <LifeCycleA /> */}
+      {/* <Form /> */}
       {/* <Inlinecss />
       <Stylesheet primary={false} /> */}
       {/* <Person /> */}
