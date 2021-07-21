@@ -15,10 +15,12 @@ import Stylesheet from "./components/cssStyling/Stylesheet";
 import Inlinecss from "./components/cssStyling/Inlinecss";
 import Form from "./components/formHandling/Form";
 import LifeCycleA from "./components/ReactLifeCycle/LifeCycleA";
+import ParentComp from "./components/PureComponent/ParentComp";
 
 function App() {
   return (
     <div className="App">
+      <ParentComp />
       {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <Inlinecss />

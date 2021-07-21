@@ -32,7 +32,7 @@ class LifeCycleA extends Component {
   }
   stateHandler = () => {
     this.setState({
-      name: "nursury",
+      name: "nursary",
     });
   };
   render() {
