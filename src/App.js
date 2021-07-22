@@ -22,11 +22,15 @@ import FocusInput from "./components/Refs/FocusInput";
 import FRParentComponent from "./components/Refs/forwardingRef/FRParentComponent";
 import PortalDemo from "./components/Portal/PortalDemo";
 import ParentHero from "./components/ErrorBoundary/ParentHero";
+import MouseClickCount from "./components/HighOrderComponent/MouseClickCount";
+import HoverCount from "./components/HighOrderComponent/HoverCount";
 
 function App() {
   return (
     <div className="App">
-    <ParentHero/>
+      <MouseClickCount />
+      <HoverCount />
+      {/* <ParentHero/> */}
       {/* <PortalDemo /> */}
       {/* <FRParentComponent /> */}
       {/* <FocusInput /> */}
