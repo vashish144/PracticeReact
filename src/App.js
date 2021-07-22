@@ -21,11 +21,13 @@ import RefCallBackApproch from "./components/Refs/RefCallBackApproch";
 import FocusInput from "./components/Refs/FocusInput";
 import FRParentComponent from "./components/Refs/forwardingRef/FRParentComponent";
 import PortalDemo from "./components/Portal/PortalDemo";
+import ParentHero from "./components/ErrorBoundary/ParentHero";
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+    <ParentHero/>
+      {/* <PortalDemo /> */}
       {/* <FRParentComponent /> */}
       {/* <FocusInput /> */}
       {/* <RefCallBackApproch /> */}
