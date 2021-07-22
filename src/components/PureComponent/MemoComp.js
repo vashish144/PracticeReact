@@ -1,7 +1,9 @@
 import React from "react";
 
 function MemoComp({ name }) {
-  console.log("i am form memoComponent");
+  console.log(
+    "****************** I am form memoComponent ***********************"
+  );
   return <div>{name}</div>;
 }
 

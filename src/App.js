@@ -16,11 +16,17 @@ import Inlinecss from "./components/cssStyling/Inlinecss";
 import Form from "./components/formHandling/Form";
 import LifeCycleA from "./components/ReactLifeCycle/LifeCycleA";
 import ParentComp from "./components/PureComponent/ParentComp";
+import RefDemo from "./components/Refs/RefDemo";
+import RefCallBackApproch from "./components/Refs/RefCallBackApproch";
+import FocusInput from "./components/Refs/FocusInput";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <FocusInput />
+      {/* <RefCallBackApproch /> */}
+      {/* <RefDemo /> */}
+      {/* <ParentComp /> */}
       {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <Inlinecss />
