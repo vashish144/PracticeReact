@@ -8,7 +8,7 @@ export class Game extends Component {
     return (
       <div>
         <h2>
-          Hello {name} playing {Play}
+          Hello {name} playing  ia am {Play}
         </h2>
         <p>yes {children}</p>
       </div>
