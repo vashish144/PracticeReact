@@ -19,11 +19,13 @@ import ParentComp from "./components/PureComponent/ParentComp";
 import RefDemo from "./components/Refs/RefDemo";
 import RefCallBackApproch from "./components/Refs/RefCallBackApproch";
 import FocusInput from "./components/Refs/FocusInput";
+import FRParentComponent from "./components/Refs/forwardingRef/FRParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <FRParentComponent />
+      {/* <FocusInput /> */}
       {/* <RefCallBackApproch /> */}
       {/* <RefDemo /> */}
       {/* <ParentComp /> */}
