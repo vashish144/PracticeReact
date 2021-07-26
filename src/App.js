@@ -24,12 +24,16 @@ import PortalDemo from "./components/Portal/PortalDemo";
 import ParentHero from "./components/ErrorBoundary/ParentHero";
 import MouseClickCount from "./components/HighOrderComponent/MouseClickCount";
 import HoverCount from "./components/HighOrderComponent/HoverCount";
+import ClickIncrementComponent from "./components/RenderProps/ClickIncrementComponent";
+import HoverIncrementComponent from "./components/RenderProps/HoverIncrementComponent";
+import AppHandler from "./components/RenderProps/AppHandler";
 
 function App() {
   return (
     <div className="App">
-      <MouseClickCount />
-      <HoverCount />
+      <AppHandler />
+      {/* <MouseClickCount />
+      <HoverCount /> */}
       {/* <ParentHero/> */}
       {/* <PortalDemo /> */}
       {/* <FRParentComponent /> */}
