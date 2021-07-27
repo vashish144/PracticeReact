@@ -30,11 +30,13 @@ import AppHandler from "./components/RenderProps/AppHandler";
 import ClassComponentA from "./components/Context/ClassComponentA";
 import ContextApp from "./components/Context/ContextApp";
 import GetRequest from "./components/HTTP-Request/GetRequest";
+import PostRequest from "./components/HTTP-Request/PostRequest";
 
 function App() {
   return (
     <div className="App">
-      <GetRequest />
+    <PostRequest/>
+      {/* <GetRequest /> */}
       {/* <ContextApp /> */}
       {/* <AppHandler /> */}
       {/* <MouseClickCount />
