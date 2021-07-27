@@ -29,10 +29,12 @@ import HoverIncrementComponent from "./components/RenderProps/HoverIncrementComp
 import AppHandler from "./components/RenderProps/AppHandler";
 import ClassComponentA from "./components/Context/ClassComponentA";
 import ContextApp from "./components/Context/ContextApp";
+import GetRequest from "./components/HTTP-Request/GetRequest";
 
 function App() {
   return (
     <div className="App">
+      <GetRequest />
       {/* <ContextApp /> */}
       {/* <AppHandler /> */}
       {/* <MouseClickCount />
