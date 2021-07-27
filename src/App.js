@@ -27,11 +27,14 @@ import HoverCount from "./components/HighOrderComponent/HoverCount";
 import ClickIncrementComponent from "./components/RenderProps/ClickIncrementComponent";
 import HoverIncrementComponent from "./components/RenderProps/HoverIncrementComponent";
 import AppHandler from "./components/RenderProps/AppHandler";
+import ClassComponentA from "./components/Context/ClassComponentA";
+import ContextApp from "./components/Context/ContextApp";
 
 function App() {
   return (
     <div className="App">
-      <AppHandler />
+      {/* <ContextApp /> */}
+      {/* <AppHandler /> */}
       {/* <MouseClickCount />
       <HoverCount /> */}
       {/* <ParentHero/> */}
